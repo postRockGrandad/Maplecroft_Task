@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('AppComponent', () => {
   let component: AppComponent;
@@ -10,6 +11,9 @@ describe('AppComponent', () => {
       declarations: [
         AppComponent
       ],
+      imports: [
+        HttpClientModule
+      ]
     }).compileComponents();
 
     fixture = TestBed.createComponent(AppComponent);
