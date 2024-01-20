@@ -15,13 +15,13 @@ You can rotate and zoom in and out on the globe, hovering over a country will sh
 
 You've been asked to make some improvements to this application, listed below are your tasks.
 
-* Some countries do not have scores shown for some reason even though the API response includes those scores. In particular the client needs France and Norway to work, you need to make a change so that the scores/colour coding for those countries work.
+* ~~Some countries do not have scores shown for some reason even though the API response includes those scores. In particular the client needs France and Norway to work, you need to make a change so that the scores/colour coding for those countries work.~~
 
-* Currently the API call is done from AppComponent, we would like this to be in a separate service.
+* ~~Currently the API call is done from AppComponent, we would like this to be in a separate service.~~
 
-* The data includes an entitled boolean, we would like all countries where entitled is false to not have scores/colours displayed on the globe.
+* ~~The data includes an entitled boolean, we would like all countries where entitled is false to not have scores/colours displayed on the globe.~~
 
-* Implement tests for your new data service and ensure existing tests work. (This application uses Jasmine/Karma, however feel free to convert it to Jest if you wish)
+* ~~Implement tests for your new data service and ensure existing tests work. (This application uses Jasmine/Karma, however feel free to convert it to Jest if you wish)~~
 
 * To help your Team Lead plan for future development of this application provide a brief list of issues and/or improvements that could be made to this application.
 
