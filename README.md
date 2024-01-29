@@ -23,7 +23,18 @@ You've been asked to make some improvements to this application, listed below ar
 
 * ~~Implement tests for your new data service and ensure existing tests work. (This application uses Jasmine/Karma, however feel free to convert it to Jest if you wish)~~
 
-* To help your Team Lead plan for future development of this application provide a brief list of issues and/or improvements that could be made to this application.
+* ~~To help your Team Lead plan for future development of this application provide a brief list of issues and/or improvements that could be made to this application.~~
+    * Select solution for data issue (1, 2, 3)
+        * Could do intersection for improved performance if not bothered about showing GeoJson with not mapped API data 
+    * Add comments to existing code for clarity (e.g. d3 API uses)
+    * Error / non-200 handling in API data request
+    * Make fully typesafe
+        * Add type / model for API data
+        * Deserializer/Serializer
+    * Module federation (depending on integration withing a larger application)    
+    * Extend UT suite for greater coverage
+      * Consider using screenshot diffing (PhantomCss) to automate more of the visualisation testing (presumably manual comparisons)
+      * Error handling 
 
 ## Submission of Completed Test
 
